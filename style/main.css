@@ -163,7 +163,7 @@ body{
 .list-info{
   text-align: left;
   padding: 1em;
-  max-width: 50vw;
+  max-width: 50;
 
   overflow: hidden;
   text-overflow: ellipsis;
