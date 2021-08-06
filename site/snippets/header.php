@@ -9,6 +9,7 @@
   <meta name="author" content="">
 
   <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/project.css">
 
 </head>
 

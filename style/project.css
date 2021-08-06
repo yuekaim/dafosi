@@ -1,0 +1,43 @@
+.project-info{
+  display: flex;
+  flex-direction: row;
+
+
+  border-bottom: 1px solid black;
+}
+
+.project-info-block{
+  border-right: 1px solid black;
+  padding: 0 3em;
+}
+
+.project-title{
+  flex-grow: 3;
+}
+
+.artist{
+  width: 15em;
+  padding: 0;
+  margin-left: auto;
+}
+
+
+
+.project-main{
+  flex-grow: 3;
+  border-right: 1px solid black;
+}
+
+.project-text-wrapper{
+  flex-grow: 3;
+}
+
+.other-info{
+  width: 15em;
+  border-left: 1px solid black;
+}
+
+
+.project-text{
+  padding: 2em 3em;
+}

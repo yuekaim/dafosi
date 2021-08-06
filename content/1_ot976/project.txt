@@ -30,7 +30,26 @@ Artist:
 
 ----
 
-Main: [{"content":{"location":"kirby","image":[],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"304251c1-3957-4bc9-8ba7-c35cb8e21a09","isHidden":false,"type":"image"}]
+Main: O.T. 976 consists of three large metal frames in which 39 ship ropes were fixed. Four projectors were used to throw a 30-minute animation of dots, lines and polygons onto all sides. The underlying colours were determined by translating the Latin alphabet into 26 different tones.
+
+----
+
+About-artist: 
+
+----
+
+Gallery:
+
+- image-18-1.jpg
+- 3-1-1.jpg
+
+----
+
+Place: London, UK
+
+----
+
+Time: 2021-04-29
 
 ----
 

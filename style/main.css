@@ -20,6 +20,13 @@ body{
   border-bottom: 1px solid black;
   height: 1.6em;
   font-size: 1.6em;
+  transition-duration: 0.3s;
+}
+
+.title:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.3s;
 }
 
 .menu{
@@ -177,4 +184,14 @@ body{
 a{
   text-decoration: none;
   color: black;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
 }
