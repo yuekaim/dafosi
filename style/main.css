@@ -1,0 +1,144 @@
+body{
+  background-color: black;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+.title{
+  background-color: white;
+  /* border-radius: 0.5em; */
+  border-bottom: 1px solid black;
+  height: 1.6em;
+  font-size: 1.6em;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+
+  background-color: white;
+  height: 2em;
+  border-top: 1px solid black;
+}
+
+.menu-item{
+  font-size: 1.6em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-right: 1px solid black;
+}
+
+.menu-item:hover{
+  background-color: grey;
+}
+
+.announcements{}
+
+.announcements-item{
+
+}
+
+.middle{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 4;
+}
+
+.announcements{
+  display: flex;
+  flex-direction: row;
+}
+
+.announcements-item{
+  width: 1.6em;
+  height: 100%;
+  background-color: white;
+  border-radius: 0.5em;
+  border-right: 1px solid black;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+
+  flex-grow: 4;
+
+  border-radius: 0.5em;
+  background-color: white;
+}
+
+.type{
+  height: 1.6em;
+  /* background-color: white; */
+  /* border-radius: 0.5em; */
+  border-bottom: 1px solid black;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.type-item{
+  margin-left: 0.5em;
+  font-size: 0.9em;
+
+  border-radius: 1em;
+  border: 1px solid black;
+  padding:0 0.8em 0 0.8em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.status{
+  height: 1.6em;
+  /* background-color: white; */
+  /* border-radius: 0.5em; */
+  border-top: 1px solid black;
+}
+
+.list{
+  height: 100px;
+  flex-grow: 4;
+  overflow: scroll;
+}
+
+.list-inside{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+
+.list-item{
+  background-color: white;
+  height: 8em;
+  border-bottom: 1px solid black;
+  transition-duration: 1s;
+
+  display: flex;
+}
+
+.list-item:hover{
+  height: 15em;
+  /* animation-duration: 1s; */
+  transition-duration: 1s;
+}
+
+.list-img{
+  height: 100%;
+}
+
+.list-title{
+  border-right: 1px solid black;
+  font-size: 2em;
+  text-align: center;
+}
