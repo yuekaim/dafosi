@@ -1,0 +1,52 @@
+title: Project
+
+status:
+    draft: Draft
+    listed: Published
+
+tabs:
+
+  # main content
+  content:
+    label: 基本内容 ｜ INFO
+    sections:
+      content:
+        type: fields
+
+        fields:
+          name:
+            label: 标题 ｜ Title
+            type: text
+
+          tags:
+            label: 标签 | Tags
+            type: tags
+
+          info:
+            label: 简介 | Intro
+            type: textarea
+            size: medium
+            minlength: 10
+            maxlength: 500
+
+          artist:
+            label: 艺术家 ｜ 工作室
+            type: structure
+            fields:
+              artist-name:
+                label: name
+                type: text
+              artist-link:
+                label: 链接 ｜ link
+                type: url
+
+  # meta information
+  meta:
+    label: 详细内容 ｜ Main Content
+    sections:
+      meta:
+        type: fields
+        fields:
+          main:
+            label: 正文 | Main Text
+            type: blocks
