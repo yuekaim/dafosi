@@ -29,6 +29,13 @@ tabs:
             minlength: 10
             maxlength: 500
 
+          preview:
+            label: 封面图 ｜ cover image
+            type: files
+            multiple: false
+            query: page.images
+
+
           artist:
             label: 艺术家 ｜ 工作室
             type: structure

@@ -16,6 +16,12 @@ Info: O.T. 976 consists of three large metal frames in which 39 ship ropes were 
 
 ----
 
+Preview:
+
+- cleo.jpg
+
+----
+
 Artist:
 
 - 
@@ -24,7 +30,7 @@ Artist:
 
 ----
 
-Main: 
+Main: [{"content":{"location":"kirby","image":[],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"304251c1-3957-4bc9-8ba7-c35cb8e21a09","isHidden":false,"type":"image"}]
 
 ----
 
