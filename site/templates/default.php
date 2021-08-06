@@ -15,24 +15,18 @@
 
       <div class="list">
         <div class="list-inside">
+          <?php $i = 0; ?>
           <?php foreach($pages->listed() as $item): ?>
-            <a class="list-item" href="<?= $item->url() ?>">
-              <img class="list-img" src="<?= $item->preview()->url() ?>" alt="">
-            </a>
+
+              <a class="<?php if($i % 2 !== 0) echo "list-right"; ?> list-item" href="<?= $item->url() ?>">
+                <img class="list-img" src="<?= $item->preview()->toFile()->url() ?>" alt="">
+                <div class="list-title"><p><?= $item->name() ?></p></div>
+                <div class="list-info"><p><?= $item->intro()->kirbytext() ?></p></div>
+              </a>
+
+
+            <?php $i++ ?>
           <?php endforeach ?>
-
-
-          <a class="list-item" href="#">
-            <img class="list-img" src="https://www.nbk.org/images/current/img_C_201709121100_510_5.jpg" alt="">
-            <div class="list-title"><p>「O.T. 976」</p></div>
-            <div class="list-info"><p>
-              O.T. 976 consists of three large metal frames in which 39 ship ropes were fixed.
-              O.T. 976 consists of three large metal frames in which 39 ship ropes were fixed.
-              O.T. 976 consists of three large metal frames in which 39 ship ropes were fixed.
-              O.T. 976 consists of three large metal frames in which 39 ship ropes were fixed.
-              O.T. 976 consists of three large metal frames in which 39 ship ropes were fixed.
-            </p></div>
-          </a>
 
         </div>
       </div>

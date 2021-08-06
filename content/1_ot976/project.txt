@@ -12,13 +12,13 @@ Tags:
 
 ----
 
-Info: O.T. 976 consists of three large metal frames in which 39 ship ropes were fixed.
+Intro: O.T. 976 consists of three large metal frames in which 39 ship ropes were fixed.
 
 ----
 
 Preview:
 
-- cleo.jpg
+- image-18-1.jpg
 
 ----
 
@@ -31,6 +31,10 @@ Artist:
 ----
 
 Main: [{"content":{"location":"kirby","image":[],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"304251c1-3957-4bc9-8ba7-c35cb8e21a09","isHidden":false,"type":"image"}]
+
+----
+
+Info: O.T. 976 consists of three large metal frames in which 39 ship ropes were fixed.
 
 ----
 

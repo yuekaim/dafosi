@@ -21,8 +21,10 @@ tabs:
           tags:
             label: 标签 | Tags
             type: tags
+            options: query
+            query: page.siblings.pluck("tags", ",", true)
 
-          info:
+          intro:
             label: 简介 | Intro
             type: textarea
             size: medium
