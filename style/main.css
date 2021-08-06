@@ -127,18 +127,44 @@ body{
   display: flex;
 }
 
+.list-right{
+  flex-direction: row-reverse;
+}
+
 .list-item:hover{
   height: 15em;
   /* animation-duration: 1s; */
   transition-duration: 1s;
+
+  box-shadow: 0 0 10px grey;
 }
 
 .list-img{
   height: 100%;
 }
 
-.list-title{
+.list-title, .list-info{
   border-right: 1px solid black;
-  font-size: 2em;
+  /* font-size: 2em; */
   text-align: center;
+}
+
+.list-right .list-title, .list-right .list-info{
+  border-left: 1px solid black;
+  border-right: none;
+}
+
+.list-title{
+  font-size: 2em;
+  white-space: nowrap;
+}
+
+.list-info{
+  padding: 1em;
+  max-width: 20em;
+  overflow: hidden;
+}
+
+.list-info p{
+  text-overflow: ellipsis;
 }
