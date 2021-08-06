@@ -1,0 +1,37 @@
+title: Project
+columns:
+  left:
+    width: 1/2
+    fields:
+      headline:
+        label: Headline
+        icon: headline
+        type: text
+      tags:
+        label: Tags
+        type: tags
+      person:
+        label: Artist
+        type: tags
+
+      metaInfo:
+        label: Meta info
+        type: textarea
+      description:
+        label: Description
+        type: textarea
+        size: large
+  right:
+    width: 1/2
+    fields:
+      images:
+        label: field.blocks.gallery.images.label
+        type: files
+        multiple: true
+        layout: cards
+        size: tiny
+        empty: field.blocks.gallery.images.empty
+        uploads:
+        template: blocks/image
+        image:
+        ratio: 1/1
